@@ -25,18 +25,6 @@ site script and deployment instructions here: https://github.com/MRSCompanyLtd/S
 
 Once that site is setup you can deploy the webpart and start using it. Please note for Teams support, the site URL is hardcoded at line 28 of services/sp.ts. Edit this as required.
 
-## Solution
-
-Timesheets Webpart
--------------------
-MRS Company Ltd.
-Toronto, ON, Canada
-
-Website: https://mrscompany.com
-Twitter: https://twitter.com/_MRSCompanyLtd
-LinkedIn: https://www.linkedin.com/company/m-r-s--company-ltd-/
-Github: https://github.com/MRSCompanyLtd
-
 ## Version history
 
 Version|Date|Comments
@@ -64,3 +52,10 @@ This webpart illustrates the following concepts:
 - Work with React SPFx Functional Components
 - Call PnP SP and Graph APIs
 - Microsoft Fabric UI for React
+
+## Author
+
+### MRS Company Ltd.
+
+[Website](https://mrscompany.com)|[Twitter](https://twitter.com/_MRSCompanyLtd)|[LinkedIn](https://www.linkedin.com/company/m-r-s--company-ltd-/)|[Github](https://github.com/MRSCompanyLtd)
+-------|-------|--------|------|
