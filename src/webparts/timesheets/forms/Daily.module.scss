@@ -1,0 +1,67 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.controlBar {
+    display: flex;
+    justify-content: space-between;
+    padding: '8px 0';
+    background-color: $ms-color-themePrimary;
+    color: white;
+}
+
+.dateLabel {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    color: white;
+}
+
+.actionButton {
+    color: white;
+}
+
+.actionButton:hover {
+    color: silver;
+}
+
+.actionButton:disabled {
+    color: grey;
+    cursor: not-allowed;
+}
+
+.today {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 12px 0;
+}
+
+.todayContent {
+    display: flex;
+    flex-direction: column;
+    transition: 0.25s ease-in-out max-height;
+    overflow: hidden;
+}
+
+.todayBar {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+}
+
+.entries {
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+.timesheetEntry {
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    margin: 4px 0;
+}

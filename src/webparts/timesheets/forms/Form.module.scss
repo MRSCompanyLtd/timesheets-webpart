@@ -1,0 +1,31 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.container {
+    display: 'flex';
+    flex-direction: 'column';
+}
+
+.formH2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.formItem {
+    margin: 4px 0;
+}
+
+.loading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.submitButton {
+    background-color: $ms-color-themePrimary;
+    color: white;
+}
+
+.submitButton:disabled {
+    background-color: whitesmoke;
+}
